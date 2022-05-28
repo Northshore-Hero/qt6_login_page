@@ -14,12 +14,16 @@ find_package(Qt6 COMPONENTS
         Widgets
         REQUIRED)
 
-add_executable(qt6_loginPage main.cpp loginpage.cpp loginpage.h loginpage.ui)
-target_link_libraries(qt6_loginPage
+add_executable(qt6_login_page main.cpp loginpage.cpp loginpage.h loginpage.ui)
+target_link_libraries(qt6_login_page
         Qt::Core
         Qt::Gui
         Qt::Widgets
         )
 
-install (TARGETS qt6_loginPage
-        DESTINATION ~/Programs/)
+install (TARGETS qt6_login_page
+        DESTINATION /usr/share/qt6_login_page)
+
+install (FILES logo.png DESTINATION /usr/share/qt6_login_page)
+
+install (FILES qt6_login_page.desktop DESTINATION /usr/share/applications)

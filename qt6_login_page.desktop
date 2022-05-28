@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=false
+Exec=/usr/share/qt6_login_page/qt6_login_page
+Name=Qt6 Login Page
+Icon=/usr/share/qt6_login_page/logo.png
