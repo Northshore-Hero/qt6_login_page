@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>loginpage</class>
+    <widget class="QMainWindow" name="loginpage">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>800</width>
+                <height>600</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>Login Page</string>
+        </property>
+        <widget class="QWidget" name="centralwidget">
+            <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                </sizepolicy>
+            </property>
+            <layout class="QGridLayout" name="gridLayout">
+                <item row="0" column="0">
+                    <layout class="QVBoxLayout" name="verticalLayout">
+                        <property name="spacing">
+                            <number>100</number>
+                        </property>
+                        <property name="leftMargin">
+                            <number>100</number>
+                        </property>
+                        <property name="rightMargin">
+                            <number>100</number>
+                        </property>
+                        <item>
+                            <layout class="QHBoxLayout" name="horizontalLayout_2">
+                                <property name="spacing">
+                                    <number>75</number>
+                                </property>
+                                <item>
+                                    <widget class="QLabel" name="usernameLabel">
+                                        <property name="font">
+                                            <font>
+                                                <pointsize>12</pointsize>
+                                            </font>
+                                        </property>
+                                        <property name="text">
+                                            <string>Username</string>
+                                        </property>
+                                    </widget>
+                                </item>
+                                <item>
+                                    <widget class="QLineEdit" name="usernameLineEdit">
+                                        <property name="font">
+                                            <font>
+                                                <pointsize>12</pointsize>
+                                            </font>
+                                        </property>
+                                    </widget>
+                                </item>
+                            </layout>
+                        </item>
+                        <item>
+                            <layout class="QHBoxLayout" name="horizontalLayout">
+                                <property name="spacing">
+                                    <number>80</number>
+                                </property>
+                                <property name="leftMargin">
+                                    <number>0</number>
+                                </property>
+                                <item>
+                                    <widget class="QLabel" name="passwordLabel">
+                                        <property name="font">
+                                            <font>
+                                                <pointsize>12</pointsize>
+                                            </font>
+                                        </property>
+                                        <property name="text">
+                                            <string>Password</string>
+                                        </property>
+                                    </widget>
+                                </item>
+                                <item>
+                                    <widget class="QLineEdit" name="passwordLineEdit">
+                                        <property name="font">
+                                            <font>
+                                                <pointsize>12</pointsize>
+                                            </font>
+                                        </property>
+                                        <property name="echoMode">
+                                            <enum>QLineEdit::Password</enum>
+                                        </property>
+                                    </widget>
+                                </item>
+                            </layout>
+                        </item>
+                        <item>
+                            <layout class="QHBoxLayout" name="horizontalLayout_3">
+                                <property name="spacing">
+                                    <number>100</number>
+                                </property>
+                                <property name="leftMargin">
+                                    <number>40</number>
+                                </property>
+                                <property name="rightMargin">
+                                    <number>40</number>
+                                </property>
+                                <item>
+                                    <widget class="QPushButton" name="submitBtn">
+                                        <property name="minimumSize">
+                                            <size>
+                                                <width>0</width>
+                                                <height>40</height>
+                                            </size>
+                                        </property>
+                                        <property name="font">
+                                            <font>
+                                                <pointsize>12</pointsize>
+                                            </font>
+                                        </property>
+                                        <property name="text">
+                                            <string>Submit</string>
+                                        </property>
+                                    </widget>
+                                </item>
+                                <item>
+                                    <widget class="QPushButton" name="clearBtn">
+                                        <property name="minimumSize">
+                                            <size>
+                                                <width>0</width>
+                                                <height>40</height>
+                                            </size>
+                                        </property>
+                                        <property name="font">
+                                            <font>
+                                                <pointsize>12</pointsize>
+                                            </font>
+                                        </property>
+                                        <property name="text">
+                                            <string>Clear</string>
+                                        </property>
+                                    </widget>
+                                </item>
+                            </layout>
+                        </item>
+                    </layout>
+                </item>
+            </layout>
+        </widget>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>
