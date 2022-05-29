@@ -5,4 +5,4 @@ Type=Application
 Terminal=false
 Exec=/usr/share/qt6_login_page/qt6_login_page
 Name=Qt6 Login Page
-Icon=/usr/share/qt6_login_page/logo.png
+Icon=/usr/share/qt6_login_page/logo.svg

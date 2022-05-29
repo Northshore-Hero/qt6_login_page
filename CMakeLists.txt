@@ -24,6 +24,6 @@ target_link_libraries(qt6_login_page
 install (TARGETS qt6_login_page
         DESTINATION /usr/share/qt6_login_page)
 
-install (FILES logo.png DESTINATION /usr/share/qt6_login_page)
+install (FILES logo.svg DESTINATION /usr/share/qt6_login_page)
 
 install (FILES qt6_login_page.desktop DESTINATION /usr/share/applications)
